@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Art</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <ul id="circleList">
+    </ul>
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+  </div>
+
+  <script src="scripts/utils.js"></script>
+  <script src="scripts/circle.js"></script>
+  <script src="scripts/canvas.js"></script>
+  <script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const canvasEl = document.getElementById("myCanvas");
+      const circleList = document.getElementById("circleList");
+
+      new Canvas(canvasEl, circleList);
+    });
+  </script>
+</body>
+</html>

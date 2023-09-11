@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+#myCanvas {
+  margin: 20px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+
+#circleList {
+  min-width: 200px;
+  margin: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+#circleList li {
+  margin: 5px;
+  padding: 10px;
+  background-color: #F1F1F1;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#circleList li:hover {
+  background-color: #DDDDDD;
+}
